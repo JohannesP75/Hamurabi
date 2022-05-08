@@ -1,0 +1,27 @@
+This is the C porting of the classic game Hamurabi,
+undertaken from October 25th to October 31st of the year 2014.
+
+== History of the game ==
+
+== History of the devellopment ==
+
+On October 24th, the .bas file was recuperated on the Net and, the day after,
+the project officialy began by the creation of .c and .h files and then the coding of the functions.
+
+The major difficulty was the "spaghetti coding" which was prevalent during the 1960s and the 1970s, before structured
+programming; directing oneself between the GOTOs was very difficult, which explained why the input-output functions,
+that is, the functions coding for the relations between the player and the game, all regrouped in io.c and .h,
+were coded before the mechanisms in city.c and .h
+
+== Rules ==
+
+The game features a town, composed from its inhabitants and the fields it possess.
+You must rule the town for the ten years of your term, managing the distribution of the grain supply between sowing,
+feeding your people, buying land por simply stocking - beware of the rats which could eat your grain in he silos!
+The more grain and land you have, the more migrants you will get in your town
+and the more workers - and eaters! - will you get.
+
+The ending depends of your management, that is, the numbers of death by hunger and the amount of land by citizen
+in the hand of your term.
+
+(Written on 15:50 31/10/2014)
